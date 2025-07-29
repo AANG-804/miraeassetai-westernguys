@@ -1,0 +1,38 @@
+{
+    "mcpServers": {
+        "etf_mcpserver": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "@smithery/cli@latest",
+                "run",
+                "@JJeongdahoon/etf_mcpserver",
+                "--key",
+                "ba739b16-af6d-43c0-ab9e-1fb071cb4167",
+                "--profile",
+                "confused-halibut-wcLuYm"
+            ],
+            "transport": "stdio",
+            "env": {
+                "NODE_ENV": "production"
+            }
+        },
+        "dart-mcp-server": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "@smithery/cli@latest",
+                "run",
+                "@snaiws/dart-mcp-server",
+                "--key",
+                "a363534d-96c2-4dea-927c-b025f1a8d3e2",
+                "--profile",
+                "tasteless-kangaroo-nAVXjn"
+            ],
+            "transport": "stdio",
+            "env": {
+                "NODE_ENV": "production"
+            }
+        }
+    }
+}
